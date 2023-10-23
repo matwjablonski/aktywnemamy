@@ -7,7 +7,7 @@ export default function RegistrationPage() {
       <Image
         src="/logo.png"
         alt="Aktywne Mamy logo"
-        className="mb-5 mx-auto"
+        className="mb-5 mx-auto max-w-70 md:max-w-100"
         width={425}
         height={135}
         priority

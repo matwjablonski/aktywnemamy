@@ -65,8 +65,11 @@ const TimeCounter: FC<TimeCounter> = ({ endDate }) => {
   }
 
   return (
-    <div className="font-sans text-3xl counter font-bold">
-      {daysWithLabel} {hoursWithLabel()} {minWithLabel()} {secWithLabel()}
+    <div className="font-sans text-3xl counter font-bold flex flex-col md:flex-row justify-center">
+      <div className="md:mr-3">{daysWithLabel}</div>
+      <div className="md:mr-3">{hoursWithLabel()}</div> 
+      <div className="md:mr-3">{minWithLabel()}</div> 
+      <div>{secWithLabel()}</div>
     </div>
   )
 }
