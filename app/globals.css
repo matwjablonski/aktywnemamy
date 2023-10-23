@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --main-pink: #f89f9f;
+  --main-pink-light: #f4c1c1;
+  --main-pink-rgb: 248, 159, 159;
+  --main-pink-dark: #f88d8f;
+  --main-blue: #81dfd4;
+  --main-blue-dark: #4de4d0;
+  --main-text: #7b7b7b;
+}
+
+body {
+  color: var(--main-text);
+  background: linear-gradient(
+      to bottom left,
+      transparent,
+      var(--main-pink-light)
+    )
+    rgb(var(--foreground-rgb));
+}
+
+.counter {
+  color: var(--main-pink-dark);
+}
