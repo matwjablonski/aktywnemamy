@@ -1,0 +1,8 @@
+.ButtonLink {
+  background-color: var(--main-pink);
+  color: rgb(var(--foreground-rgb));
+
+  &:hover {
+    background-color: var(--main-pink-dark);
+  }
+}
