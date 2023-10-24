@@ -15,7 +15,7 @@ const Header = () => {
             height={135}
             priority
           />
-          <ButtonLink />
+          <ButtonLink label="Zapisy" />
         </div>
       </div>
     </header>

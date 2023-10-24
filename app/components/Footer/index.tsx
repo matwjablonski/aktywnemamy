@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className={styles.Footer}>
       <div className="container mx-auto px-4 py-5">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex items-center gap-6 mb-6 md:mb-0">
             <Image
               src="/logo-opsdopiewo.png"
               alt="Aktywne Mamy logo"
@@ -25,7 +25,7 @@ const Footer = () => {
             />
           </div>
           <div className="max-w-lg">
-            <p className="text-right">Inicjatywa oddolna finansowana z funduszy Ośrodka Pomocy Społecznej Gminy Dopiewo.</p>
+            <p className="text-center md:text-right">Inicjatywa oddolna finansowana z funduszy Ośrodka Pomocy Społecznej Gminy Dopiewo.</p>
           </div>
         </div>
       </div>
