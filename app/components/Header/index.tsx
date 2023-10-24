@@ -5,7 +5,8 @@ import styles from './Header.module.scss';
 import ButtonLink from '../ButtonLink';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
+import MainNav from '../MainNav';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(() => {
@@ -52,6 +53,7 @@ const Header = () => {
               priority
             />
           </Link>
+          <MainNav />
           <ButtonLink label="Zapisy" link="/zapisy" />
         </div>
       </div>
