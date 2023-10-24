@@ -8,7 +8,12 @@ import { useEffect, useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(window.scrollY > 40);
+  const [isScrolled, setIsScrolled] = useState(() => {
+    if (typeof window !== "undefined") {
+      return window.scrollY > 40;
+    }
+    return false;
+  });
   const pathname = usePathname();
 
   const detectScroll = () => {
@@ -22,12 +27,14 @@ const Header = () => {
   }
 
   useEffect(() => {
-    if (pathname === '/') {
+    if (pathname === '/' && typeof window !== "undefined") {
       window.addEventListener('scroll', detectScroll);
     }
 
     return () => {
-      window.removeEventListener('scroll', detectScroll);
+      if (typeof window !== "undefined") {
+        window.removeEventListener('scroll', detectScroll);
+      }
     }
   })
 
