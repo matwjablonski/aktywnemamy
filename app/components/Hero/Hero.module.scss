@@ -1,0 +1,41 @@
+@keyframes show {
+  0% {
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.Hero {
+  background: url('/hero.jpg') no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 40rem;
+    height: 100%;
+    background-color: rgba(var(--foreground-rgb), 0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: skew(-10deg);
+  }
+
+  .Title {
+    color: var(--main-pink-dark);
+  }
+
+  .Content {
+    color: var(--main-text-dark);
+    animation: show 0.7s linear;
+  }
+}

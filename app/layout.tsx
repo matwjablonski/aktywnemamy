@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pl">
       <body className={`${inter.className} min-h-screen flex flex-col justify-between`}>
         <Header />
-        <main className="container mx-auto px-4 flex flex-col align-middle items-center justify-center">
+        <main>
           {children}
         </main>
         <Footer />
