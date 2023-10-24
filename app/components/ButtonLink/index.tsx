@@ -5,7 +5,7 @@ import { FC } from 'react';
 type ButtonLink = {
   label: string;
   link: string;
-  className: string;
+  className?: string;
 }
 
 const ButtonLink: FC<ButtonLink> = ({ label, link, className }) => {
