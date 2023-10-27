@@ -8,7 +8,7 @@ const MainNav = () => {
           <Link href="/">O inicjatywie</Link>
         </li>
         <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
-          <Link href="/">Wydarzenia</Link>
+          <Link href="/wydarzenia">Wydarzenia</Link>
         </li>
         <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
           <Link href="/">Kontakt</Link>

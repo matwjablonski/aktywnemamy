@@ -1,14 +1,16 @@
 import { Event } from '@/app/data/events';
-import { calculateEndHour, canRegister } from '@/app/utils/events';
+import { calculateEndHour, canRegister, isEventInPast } from '@/app/utils/events';
 import Image from 'next/image';
 import { FC } from 'react'
 
 type EventBox = {
-
+  withArchive?: boolean;
 } & Event;
 
-const EventBox: FC<EventBox> = ({ title, eventDate, duration, place, description, image, registrationUrl, detailsUrl }) => (
-  <article className="
+const EventBox: FC<EventBox> = ({
+  title, eventDate, duration, place, description, image, registrationUrl, detailsUrl, withArchive,
+}) => (
+  <article className={`
     flex
     content-stretch
 
@@ -18,7 +20,9 @@ const EventBox: FC<EventBox> = ({ title, eventDate, duration, place, description
     w-8/12
     min-h-[200px]
     mx-auto
-  ">
+
+    ${(withArchive && isEventInPast(eventDate)) ? 'opacity-50 grayscale' : ''}
+  `}>
     <div className="
       flex
       flex-col
