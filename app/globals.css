@@ -16,12 +16,6 @@
 
 body {
   color: var(--main-text);
-  background: linear-gradient(
-      to bottom left,
-      transparent,
-      var(--main-pink-light)
-    )
-    rgb(var(--foreground-rgb));
 }
 
 .counter {

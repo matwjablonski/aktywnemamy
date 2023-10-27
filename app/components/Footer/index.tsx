@@ -25,7 +25,7 @@ const Footer = () => {
             />
           </div>
           <div className="max-w-lg">
-            <p className="text-center md:text-right">Inicjatywa oddolna finansowana z funduszy Ośrodka Pomocy Społecznej Gminy Dopiewo.</p>
+            <p className="text-center md:text-right">Inicjatywa oddolna realizowana jest ze środków budżetowych Gminy Dopiewo przeznaczonych na aktywizację społeczności lokalnej.</p>
           </div>
         </div>
       </div>
