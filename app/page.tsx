@@ -8,9 +8,7 @@ import { getClosestEvents } from './utils/events';
 import EventBox from './components/EventBox';
 
 export default function Home() {
-  const nextEvents = useMemo(() => {
-    return getClosestEvents(events);
-  }, [ events ]);
+  const nextEvents = getClosestEvents(events, 100);
 
   return (
     <>

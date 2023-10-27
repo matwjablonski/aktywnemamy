@@ -10,7 +10,21 @@ type ButtonLink = {
 
 const ButtonLink: FC<ButtonLink> = ({ label, link, className }) => {
   return (
-    <Link href={link} className={`${styles.ButtonLink} ${className} px-10 py-3 rounded-3xl hidden sm:inline-block `}>
+    <Link
+      href={link}
+      className={`
+        ${className} 
+        bg-main 
+        text-white
+        hover:bg-main-dark
+        
+        px-10 
+        py-3 
+        rounded-3xl 
+        hidden 
+        
+        sm:inline-block
+      `}>
       <span className="uppercase text-sm tracking-widest">{label}</span>
     </Link>
   )

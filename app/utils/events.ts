@@ -27,3 +27,11 @@ export const calculateEndHour = (eventDate: Date, duration: number): string => {
 
   return `${endHour}:${endMinutes.toString().padStart(2, '0')}`;
 }
+
+export const canRegister = (eventDate: Date, daysToRegister = 12): boolean => {
+  const difference = Math.floor(((+eventDate - +new Date())) / 1000);
+  const days = Math.floor(difference / (3600 * 24));
+  const hours = Math.floor((difference % (3600 * 24)) / 3600);
+
+  return (days < daysToRegister) || (days === daysToRegister && hours === 0);
+}
