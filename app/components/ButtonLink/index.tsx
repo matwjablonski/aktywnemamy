@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import styles from './ButtonLink.module.scss';
 import { FC } from 'react';
 
 type ButtonLink = {
