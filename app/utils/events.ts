@@ -13,3 +13,17 @@ export const getClosestEvents = (events: Event[], number = 3): Event[] => {
 
   return filteredEvents;
 }
+
+export const calculateEndHour = (eventDate: Date, duration: number): string => {
+  const eventStartHour = new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short'}).format(eventDate);
+
+  const [ hours, minutes ] = eventStartHour.split(':');
+
+  const time = +hours + (+minutes / 60);
+  const endTime = time + duration;
+
+  const endHour = Math.floor(endTime);
+  const endMinutes = Math.round(endTime % 1 * 60);
+
+  return `${endHour}:${endMinutes.toString().padStart(2, '0')}`;
+}

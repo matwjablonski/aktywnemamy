@@ -1,17 +1,23 @@
+import { Event } from '@/app/data/events';
+import { calculateEndHour } from '@/app/utils/events';
 import { FC } from 'react'
 
 type EventBox = {
-  title: string;
-  description: string;
-  image: string;
-  eventDate: Date;
-  place: string;
-  fbLink: string;
-  registrationLink: string;
-}
 
-const EventBox: FC<EventBox> = ({ title, description, eventDate, place, fbLink, registrationLink }) => (
+} & Event;
+
+const EventBox: FC<EventBox> = ({ title, eventDate, duration, place, description }) => (
   <article className="flex">
-    <h3>{title}</h3>
+    <div>
+    {new Intl.DateTimeFormat('pl-PL', { dateStyle: 'long'}).format(eventDate)}
+    </div>
+    <div>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <div>{new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short'}).format(eventDate)} - {calculateEndHour(eventDate, duration)}</div>
+      <div>{place}</div>
+    </div>
   </article>
 )
+
+export default EventBox;
