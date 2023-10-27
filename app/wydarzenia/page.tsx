@@ -10,7 +10,7 @@ const EventsPage = () => {
     <div className="mt-[110px]">
       <Container>
         {nextEvents.map(event => (
-          <EventBox {...event} key={event.id} withArchive />
+          <EventBox {...event} key={event.id} withArchive showDetails />
         ))}
       </Container>
     </div>
