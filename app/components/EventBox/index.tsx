@@ -142,8 +142,9 @@ const EventBox: FC<EventBox> = ({
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            {new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short'}).format(eventDate)} - {calculateEndHour(eventDate, duration)}</div>
-            <div className="flex mr-6 text-sm items-center text-gray gap-2">
+            {new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short'}).format(eventDate)} - {calculateEndHour(eventDate, duration)}
+          </div>
+          <div className="flex mr-6 text-sm items-center text-gray gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />

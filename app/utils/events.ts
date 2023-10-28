@@ -1,5 +1,7 @@
 import { Event } from '../data/events';
 
+export const DAYS_TO_REGISTRATION_BEFORE_EVENT = 5;
+
 export const getClosestEvents = (events: Event[], number = 3): Event[] => {
   const currentDate = new Date();
 
@@ -29,7 +31,7 @@ export const calculateEndHour = (eventDate: Date, duration: number): string => {
   return `${endHour}:${endMinutes.toString().padStart(2, '0')}`;
 }
 
-export const canRegister = (eventDate: Date, daysToRegister = 5): boolean => {
+export const canRegister = (eventDate: Date, daysToRegister = DAYS_TO_REGISTRATION_BEFORE_EVENT): boolean => {
   const difference = Math.floor(((+eventDate - +new Date())) / 1000);
   const days = Math.floor(difference / (3600 * 24));
   const hours = Math.floor((difference % (3600 * 24)) / 3600);
@@ -45,4 +47,22 @@ export const isEventInPast = (eventDate: Date): boolean => {
   const difference = Math.floor(((+eventDate - +new Date())) / 1000);
 
   return Math.sign(difference) === -1
+}
+
+export type LeftTimeObject = { days: number, hours: number, minutes: number, seconds: number };
+
+export const getLeftTimeObject = (eventDate: Date, timespan = 0): LeftTimeObject => {
+  const leftTime = Math.floor((((+eventDate - timespan) - +new Date())) / 1000);
+
+  const days = Math.floor(leftTime / (3600 * 24));
+  const hours = Math.floor((leftTime % (3600 * 24)) / 3600);
+  const minutes = Math.floor(((leftTime % (3600 * 24)) % 3600) / 60);
+  const seconds = leftTime % 60;
+
+  return {
+    days,
+    hours,
+    minutes,
+    seconds,
+  }
 }

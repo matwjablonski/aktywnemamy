@@ -21,3 +21,34 @@ body {
 .counter {
   color: var(--main-pink-dark);
 }
+
+.ticket {
+  position: relative;
+}
+
+.ticket::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(180deg);
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+}
+
+.ticket::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+}
