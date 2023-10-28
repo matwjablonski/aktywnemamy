@@ -5,7 +5,6 @@ import { useState } from 'react';
 const MainNav = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
-  console.log(isOpenMenu);
   return (
     <nav>
       <div className="md:hidden" onClick={() => setIsOpenMenu((prev) => !prev)}>

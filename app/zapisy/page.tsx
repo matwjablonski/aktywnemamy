@@ -6,7 +6,7 @@ import { events } from '../data/events';
 import { getClosestEvents } from '../utils/events';
 
 export default function RegistrationPage() {
-  const nextEvents = getClosestEvents(events, 9);
+  const nextEvents = getClosestEvents(events, 10);
 
   return (
     <Container>
