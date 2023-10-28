@@ -19,7 +19,7 @@ const TimeCounter: FC<TimeCounter> = ({ endDate }) => {
   const min = Math.floor(((left % (3600 * 24)) % 3600) / 60);
   const sec = left % 60;
 
-  const nextEvents = getClosestEvents(events, 3);
+  
 
   useEffect(() => {
     const a = setInterval(() => {
@@ -66,9 +66,7 @@ const TimeCounter: FC<TimeCounter> = ({ endDate }) => {
 
   if (left <= 0) {
     return <div>
-      {nextEvents.map(event => (
-          <EventBox {...event} key={event.id} />
-        ))}
+      
     </div>
   }
 
