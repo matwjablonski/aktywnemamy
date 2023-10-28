@@ -55,7 +55,7 @@ export const events: Event[] = [
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
     registrationUrl: 'https://forms.gle/J2Hi6HsSjvCZSovZ9',
-    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766759170549',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766759170549?ref=newsfeed',
   },
   {
     id: 'cwiczenia-ruchowe-listopad-2',
@@ -66,7 +66,8 @@ export const events: Event[] = [
     trainer: 'Aneta Biadun',
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
-    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766759170549?event_time_id=1083766762503882'
+    registrationUrl: 'https://forms.gle/14T9qgJrXxaboetW8',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766762503882?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22user_timeline%22%7D%2C%7B%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D]%2C%22ref_notif_type%22%3Anull%7D'
   },
   {
     id: 'cwiczenia-ruchowe-listopad-3',
@@ -77,6 +78,8 @@ export const events: Event[] = [
     trainer: 'Aneta Biadun',
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
+    registrationUrl: 'https://forms.gle/JSax9yTgUaU8dTESA',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766769170548?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
   },
   {
     id: 'cwiczenia-ruchowe-listopad-4',
@@ -87,6 +90,8 @@ export const events: Event[] = [
     trainer: 'Aneta Biadun',
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
+    registrationUrl: 'https://forms.gle/kyiWKowHKRHALPKe6',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766765837215?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
   },
   {
     id: 'psychoterapeuta-listopad-1',
