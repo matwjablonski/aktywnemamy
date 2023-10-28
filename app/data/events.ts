@@ -48,27 +48,30 @@ export const events: Event[] = [
   {
     id: 'cwiczenia-ruchowe-listopad-1',
     title: 'Ćwiczenia ruchowe Aktywna Mama',
-    description: 'Trening medyczny dla mam po okresie połogu w towarzystwie dzieci do 1. roku życia.',
+    description: 'Prowadzone zajęcia pozwolą na odbudowę funkcji po ciąży i porodzie, poprawę świadomości ciała, kontroli ruchu (stabilizacji), koordynacji nerwowo-mięśniowej oraz postawy ciała. Przygotowują młode mamy do powrotu do sportu. Jest to świetna okazja na spędzenie czasu z dzieckiem, budowanie relacji społecznych oraz pierwsze interakcje maluszków z rówieśnikami.',
     eventDate: new Date(2023, 10, 8, 11),
     duration: 0.833,
     trainer: 'Aneta Biadun',
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
+    registrationUrl: 'https://forms.gle/J2Hi6HsSjvCZSovZ9',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766759170549',
   },
   {
     id: 'cwiczenia-ruchowe-listopad-2',
     title: 'Ćwiczenia ruchowe Aktywna Mama',
-    description: 'Trening medyczny dla mam po okresie połogu w towarzystwie dzieci do 1. roku życia.',
+    description: 'Prowadzone zajęcia pozwolą na odbudowę funkcji po ciąży i porodzie, poprawę świadomości ciała, kontroli ruchu (stabilizacji), koordynacji nerwowo-mięśniowej oraz postawy ciała. Przygotowują młode mamy do powrotu do sportu. Jest to świetna okazja na spędzenie czasu z dzieckiem, budowanie relacji społecznych oraz pierwsze interakcje maluszków z rówieśnikami.',
     eventDate: new Date(2023, 10, 15, 11),
     duration: 0.833,
     trainer: 'Aneta Biadun',
     place: 'Świetlica wiejska w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
+    detailsUrl: 'https://www.facebook.com/events/1083763255837566/1083766759170549?event_time_id=1083766762503882'
   },
   {
     id: 'cwiczenia-ruchowe-listopad-3',
     title: 'Ćwiczenia ruchowe Aktywna Mama',
-    description: 'Trening medyczny dla mam po okresie połogu w towarzystwie dzieci do 1. roku życia.',
+    description: 'Prowadzone zajęcia pozwolą na odbudowę funkcji po ciąży i porodzie, poprawę świadomości ciała, kontroli ruchu (stabilizacji), koordynacji nerwowo-mięśniowej oraz postawy ciała. Przygotowują młode mamy do powrotu do sportu. Jest to świetna okazja na spędzenie czasu z dzieckiem, budowanie relacji społecznych oraz pierwsze interakcje maluszków z rówieśnikami.',
     eventDate: new Date(2023, 10, 22, 11),
     duration: 0.833,
     trainer: 'Aneta Biadun',
@@ -78,7 +81,7 @@ export const events: Event[] = [
   {
     id: 'cwiczenia-ruchowe-listopad-4',
     title: 'Ćwiczenia ruchowe Aktywna Mama',
-    description: 'Trening medyczny dla mam po okresie połogu w towarzystwie dzieci do 1. roku życia.',
+    description: 'Prowadzone zajęcia pozwolą na odbudowę funkcji po ciąży i porodzie, poprawę świadomości ciała, kontroli ruchu (stabilizacji), koordynacji nerwowo-mięśniowej oraz postawy ciała. Przygotowują młode mamy do powrotu do sportu. Jest to świetna okazja na spędzenie czasu z dzieckiem, budowanie relacji społecznych oraz pierwsze interakcje maluszków z rówieśnikami.',
     eventDate: new Date(2023, 10, 29, 11),
     duration: 0.833,
     trainer: 'Aneta Biadun',
@@ -88,7 +91,7 @@ export const events: Event[] = [
   {
     id: 'psychoterapeuta-listopad-1',
     title: '(Nie)prawda Instagrama - rzeczywistość kontra oczekiwania',
-    description: 'Prelekcja z psychoterapeutą na temat macierzyństwa i jego wizerunku przestawianego w media społecznościowych.',
+    description: 'Dzisiejsze czasy poza „tradycyjną” presją społeczną, dokładają presję ze strony mediów społecznościowych. Młode Mamy są szczególnie narażone na naciski z obu tych źródeł. Powodują one pogorszenia nastroju, samooceny, co w konsekwencji prowadzić może do dużo poważniejszych problemów. Są to poważne wyzwania, z którymi chcemy walczyć i pokazać jak się na nie uodpornić. Dlatego na spotkaniu opowiemy, jak sprawić, by lukrowany świat Instagrama, oraz oczekiwania innych względem wychowania naszych dzieci nie wpływały negatywnie na nas samych.',
     eventDate: new Date(2023, 10, 13, 10),
     duration: 2,
     trainer: 'Tomasz Chełek',
@@ -112,7 +115,7 @@ export const events: Event[] = [
   {
     id: 'neurologopeda-listopad-1',
     title: 'Neurologopeda - karmienie od narodzin do roku',
-    description: '',
+    description: 'Podczas warsztatów zostaną poruszone tematy związane z fizjologią od ssania po gryzienia i mówienie, karmieniem, oraz rozszerzaniem diety i rozwojem mowy.',
     eventDate: new Date(2023, 10, 16, 12, 30),
     duration: 2.5,
     trainer: 'Marcelina Żółtowska',
@@ -124,7 +127,7 @@ export const events: Event[] = [
   {
     id: 'it-listopad-1',
     title: 'Przebranżowienie do IT',
-    description: '',
+    description: 'Z warsztatów dowiesz się: Czy branża IT jest dla Ciebie? Jak (naprawdę) działa Twój komputer? Jakie kompetencje musisz opanować, aby zostać programistką / testerką? Jak wygląda codzienna praca w projektach programistycznych?',
     eventDate: new Date(2023, 10, 17, 17),
     duration: 3,
     trainer: 'Mateusz Jabłoński',
@@ -136,7 +139,7 @@ export const events: Event[] = [
   {
     id: 'psycholog-przytulamy-listopad-1',
     title: 'Przytulamy Mamy - jak zaopiekować się sobą w macierzyństwie',
-    description: '',
+    description: 'Często zapominamy, że wraz z narodzinami dziecka rodzi się jeszcze jeden zupełnie nowy człowiek- Jego Mama. Dla kobiety to zmiana dotychczasowego życia o 180 stopni. Nowa rzeczywistość jest piękna- ale bywa też zaskakująca, niezrozumiała, pełna wyzwań i czasami trudna. Młoda mama słyszy wtedy dobre rady: "zadbaj o siebie". Ale jak to zrobić po nieprzespanej nocy, gdy w brzuchu burczy, w domu bałagan, w tle płacze niemowlę, a ciepła kawa to miłe wspomnienie sprzed kilku miesięcy? O tym właśnie porozmawiamy w gronie Mam. O blaskach i cieniach współczesnego macierzyństwa i związanych z nim emocjach - dlaczego wszystkie są ważne, potrzebne i mamy do nich prawo. O odnajdywaniu swoich potrzeb, praktykowaniu życzliwości wobec siebie, uważności pozwalajacej znaleźć wytchnienie w malych rzeczach i o tym, co każda z nas może zrobić dla siebie, by zaopiekować się sobą na tym nowym etapie życia.',
     eventDate: new Date(2023, 10, 21, 17),
     duration: 2,
     trainer: 'Alicja Formaniewicz - Szyndler',
@@ -148,7 +151,7 @@ export const events: Event[] = [
   {
     id: 'makrama-listopad-1',
     title: 'Makrama',
-    description: '',
+    description: 'Podczas 2-godzinnych warsztatów poznasz podstawowe sploty oraz stworzysz makramowe zawieszki do doniczek.',
     eventDate: new Date(2023, 10, 24, 16),
     duration: 2,
     trainer: 'Monika Gorajewska - Czmoch',
@@ -160,7 +163,7 @@ export const events: Event[] = [
   {
     id: 'dieta-listopad-1',
     title: 'Rozszerzenie diety niemowlaka',
-    description: '',
+    description: 'Warsztat  dotyczący odżywiania kobiet po porodzie oraz rozszerzenie diety niemowlaka.  W swobodnej atmosferze porozmawiamy o początkach rozszerzania diety, o tym jak prawidłowo bilansować posiłki uwzględniając sezonowość produktów a także przedstawione zostaną przykładowe jadłospisy.',
     eventDate: new Date(2023, 10, 28, 16),
     duration: 2,
     trainer: 'Joanna Wójcik',
