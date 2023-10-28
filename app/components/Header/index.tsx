@@ -54,7 +54,7 @@ const Header = () => {
             />
           </Link>
           <MainNav />
-          <ButtonLink label="Zapisy" link="/zapisy" />
+          <ButtonLink label="Zapisy" link="/zapisy" className="hidden md:inline-block" />
         </div>
       </div>
     </header>

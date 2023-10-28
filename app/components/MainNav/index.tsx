@@ -1,17 +1,41 @@
 import Link from 'next/link';
+import ButtonLink from '../ButtonLink';
+import { useState } from 'react';
 
 const MainNav = () => {
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
+
+  console.log(isOpenMenu);
   return (
     <nav>
-      <ul className="flex gap-8">
-        <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
+      <div className="md:hidden" onClick={() => setIsOpenMenu((prev) => !prev)}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </div>
+      <ul className={`
+        gap-8
+        ${isOpenMenu ? 'block absolute top-[106px] right-0 w-1/2 bg-gray p-10 text-right': 'hidden'}
+        
+        md:flex
+        md:static
+        md:w-auto
+        md:right-auto
+        md:text-left
+        md:bg-white 
+        md:top-auto
+      `}>
+        <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
           <a className="whitespace-nowrap cursor-default opacity-30">O inicjatywie</a>
         </li>
-        <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
+        <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
           <Link href="/wydarzenia" className="whitespace-nowrap">Wydarzenia</Link>
         </li>
-        <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
+        <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
           <a href="/" className="whitespace-nowrap cursor-default opacity-30">Kontakt</a>
+        </li>
+        <li className="md:hidden mt-8">
+          <ButtonLink label="Zapisy" link="/zapisy" className="" />
         </li>
       </ul>
     </nav>
