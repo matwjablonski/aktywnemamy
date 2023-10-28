@@ -6,8 +6,9 @@ export default function RegistrationPage() {
   return (
     <div className={`flex flex-col justify-center align-middle text-center ${styles.Page}`}>
       <h2 className="text-4xl font-bold mb-2">Zapisy startują już niedługo!</h2>
-      <p className="mb-3 text-lg">Nie przegap! Już 28 października br. będziesz mogła zapisać się na wybrane wydarzenia!</p>
-      <TimeCounter endDate={new Date(2023, 9, 28, 21)} />
+      <p className="mb-3 text-lg">Już 28 października br. będziesz mogła zapisać się na pierwsze wydarzenie.</p>
+      <p className="mb-3 text-lg">Zapisy na pozostałe wydarzenia będą sukcesywnie odblokowywane, na 5 dni przed wydarzeniem o godz. 21:00.</p>
+      <TimeCounter endDate={new Date(2023, 9, 28, 19)} />
     </div>
   )
 }
