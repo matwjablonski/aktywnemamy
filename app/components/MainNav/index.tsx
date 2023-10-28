@@ -5,13 +5,13 @@ const MainNav = () => {
     <nav>
       <ul className="flex gap-8">
         <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
-          <Link href="/">O inicjatywie</Link>
+          <a className="whitespace-nowrap cursor-default opacity-30">O inicjatywie</a>
         </li>
         <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
-          <Link href="/wydarzenia">Wydarzenia</Link>
+          <Link href="/wydarzenia" className="whitespace-nowrap">Wydarzenia</Link>
         </li>
         <li className="uppercase tracking-wider text-[var(--main-text-dark)] hover:text-[--main-text] transition-all text-sm">
-          <Link href="/">Kontakt</Link>
+          <a href="/" className="whitespace-nowrap cursor-default opacity-30">Kontakt</a>
         </li>
       </ul>
     </nav>
