@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FC } from 'react';
+import { FC, HTMLAttributeAnchorTarget } from 'react';
 
 export enum ButtonVariant {
   PRIMARY = 'primary',
@@ -11,9 +11,10 @@ type ButtonLink = {
   link: string;
   className?: string;
   variant?: ButtonVariant;
+  target?: HTMLAttributeAnchorTarget;
 }
 
-const ButtonLink: FC<ButtonLink> = ({ label, link, className, variant }) => {
+const ButtonLink: FC<ButtonLink> = ({ label, link, className, variant, target }) => {
   const getVariantClasses = () => {
     switch (variant) {
       case ButtonVariant.GRAY: 
@@ -25,6 +26,7 @@ const ButtonLink: FC<ButtonLink> = ({ label, link, className, variant }) => {
   }
   return (
     <Link
+      target={target}
       href={link}
       className={`
         ${className} 

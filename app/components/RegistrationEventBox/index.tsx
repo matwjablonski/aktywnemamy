@@ -126,7 +126,7 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
           </div>
           {(canRegister(eventDate) && registrationUrl) && (
             <div className="text-center mt-8">
-              <ButtonLink label="Zapisz się" link={registrationUrl} />
+              <ButtonLink label="Zapisz się" link={registrationUrl} target="_blank" />
             </div>
           )}
           {!canRegister(eventDate) && (
@@ -138,7 +138,7 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
             </div>
           )}
           <div className="md:hidden mt-2 text-center">
-            {detailsUrl && <ButtonLink label="Szczegóły" link={detailsUrl} variant={ButtonVariant.GRAY}/>}
+            {detailsUrl && <ButtonLink label="Szczegóły" link={detailsUrl} variant={ButtonVariant.GRAY} target="_blank" />}
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
           {trainer}
         </div>
         <p className="mb-8">{description}</p>
-        {detailsUrl && <ButtonLink label="Szczegóły" link={detailsUrl} variant={ButtonVariant.GRAY}/>}
+        {detailsUrl && <ButtonLink label="Szczegóły" link={detailsUrl} variant={ButtonVariant.GRAY} target="_blank"/>}
       </div>
     </div>
   )
