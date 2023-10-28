@@ -66,3 +66,30 @@ export const getLeftTimeObject = (eventDate: Date, timespan = 0): LeftTimeObject
     seconds,
   }
 }
+
+export const getTimeLabel = (left: number, type: 'day' | 'hour' | 'minute' | 'second'): string => {
+  const cases = {
+    day: [ 'dzień', 'dni' ],
+    hour: [ 'godzin', 'godzina', 'godziny' ],
+    minute: [ 'minut', 'minuta', 'minuty' ],
+    second: [ 'sekund', 'sekunda', 'sekundy' ],
+  }
+  
+  if (type === 'day') {
+    if (left === 1) {
+      return cases[type][0];
+    }
+
+    return cases[type][1];
+  }
+
+  if (left === 0 || left >= 5) {
+    return cases[type][0];
+  }
+
+  if (left === 1) {
+    return cases[type][1];
+  }
+
+  return cases[type][2];
+}

@@ -3,7 +3,7 @@
 import { Event } from '@/app/data/events';
 import { FC, useEffect, useRef, useState } from 'react';
 import ButtonLink, { ButtonVariant } from '../ButtonLink';
-import { DAYS_TO_REGISTRATION_BEFORE_EVENT, calculateEndHour, canRegister, getLeftTimeObject } from '@/app/utils/events';
+import { DAYS_TO_REGISTRATION_BEFORE_EVENT, calculateEndHour, canRegister, getLeftTimeObject, getTimeLabel } from '@/app/utils/events';
 import Image from 'next/image';
 
 const TIMESPAN = 60 * 60 * 24 * DAYS_TO_REGISTRATION_BEFORE_EVENT * 1000;
@@ -28,11 +28,11 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
     <div className="flex gap-2 justify-center">
       <div className="bg-secondary px-5 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.days}
-        <span className="text-xs uppercase">dni</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.days, 'day')}</span>
       </div>
       <div className="bg-secondary px-4 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.hours}
-        <span className="text-xs uppercase">godzin</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.hours, 'hour')}</span>
       </div>
     </div>
   ) : null;
@@ -48,11 +48,11 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
     return <div className="flex gap-2 justify-center">
       <div className="bg-secondary px-5 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.hours}
-        <span className="text-xs uppercase">godzin</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.hours, 'hour')}</span>
       </div>
       <div className="bg-secondary px-4 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.minutes}
-        <span className="text-xs uppercase">minut</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.minutes, 'minute')}</span>
       </div>
     </div>
   }
@@ -68,11 +68,11 @@ const RegistrationEventBox: FC<Event> = ({ title, description, registrationUrl, 
     return <div className="flex gap-2 justify-center">
       <div className="bg-secondary px-5 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.minutes}
-        <span className="text-xs uppercase">minut</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.minutes, 'minute')}</span>
       </div>
       <div className="bg-secondary px-4 py-2 flex flex-col items-center justify-center rounded-xl text-black min-w-[75px]">
         {leftTime.seconds}
-        <span className="text-xs uppercase">sekund</span>
+        <span className="text-xs uppercase">{getTimeLabel(leftTime.seconds, 'second')}</span>
       </div>
     </div>
   }
