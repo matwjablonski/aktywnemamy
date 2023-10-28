@@ -33,9 +33,7 @@ const ButtonLink: FC<ButtonLink> = ({ label, link, className, variant }) => {
         px-10 
         py-3 
         rounded-3xl 
-        hidden 
-        
-        sm:inline-block
+        inline-block
       `}>
       <span className="uppercase text-sm tracking-widest whitespace-nowrap">{label}</span>
     </Link>
