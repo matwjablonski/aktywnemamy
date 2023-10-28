@@ -12,7 +12,7 @@ export default function RegistrationPage() {
     <Container>
       <div className="mt-[110px]">
           <SectionTitle title="Zapisy na wydarzenia" subtitle="Zapisy wystartowały" />
-          <p className="text-md text-center max-w-lg mx-auto mb-24">Zapisy na wydarzenia będą sukcesywnie odblokowywane. Zapisy są uruchamiane na 5 dni przed wydarzeniem.</p>
+          <p className="text-md text-center max-w-lg mx-auto mb-24">Zapisy będą uruchamiane na 5 dni przed wydarzeniem. Zapraszamy do odwiedzania naszej strony.</p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-12">
             {nextEvents.map(event => (
               <RegistrationEventBox {...event} key={event.id} />
