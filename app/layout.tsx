@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Source_Sans_3 } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const sourceSans = Source_Sans_3({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aktywne Mamy',
@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body className={`${inter.className} min-h-screen flex flex-col justify-between`}>
+      <body className={`${sourceSans.className} min-h-screen flex flex-col justify-between`}>
         <Header />
-        <main className="container mx-auto px-4 flex flex-col align-middle items-center justify-center">
+        <main>
           {children}
         </main>
         <Footer />

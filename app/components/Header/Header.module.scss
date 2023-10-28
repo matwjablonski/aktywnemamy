@@ -1,3 +1,5 @@
 .Header {
   background: rgb(var(--foreground-rgb));
+  transition: all;
+  transition-duration: 150ms;
 }

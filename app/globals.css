@@ -11,16 +11,11 @@
   --main-blue: #81dfd4;
   --main-blue-dark: #4de4d0;
   --main-text: #7b7b7b;
+  --main-text-dark: #222;
 }
 
 body {
   color: var(--main-text);
-  background: linear-gradient(
-      to bottom left,
-      transparent,
-      var(--main-pink-light)
-    )
-    rgb(var(--foreground-rgb));
 }
 
 .counter {
