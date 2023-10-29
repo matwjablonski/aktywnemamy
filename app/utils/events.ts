@@ -44,7 +44,7 @@ export const canRegister = (eventDate: Date, daysToRegister = DAYS_TO_REGISTRATI
 }
 
 export const isEventInPast = (eventDate: Date): boolean => {
-  const difference = Math.floor(((+eventDate - +new Date())) / 1000);
+  const difference = Math.floor(((+eventDate - +new Date(new Date().toUTCString()))) / 1000);
 
   return Math.sign(difference) === -1
 }
@@ -52,7 +52,7 @@ export const isEventInPast = (eventDate: Date): boolean => {
 export type LeftTimeObject = { days: number, hours: number, minutes: number, seconds: number };
 
 export const getLeftTimeObject = (eventDate: Date, timespan = 0): LeftTimeObject => {
-  const leftTime = Math.floor((((+eventDate - timespan) - +new Date())) / 1000);
+  const leftTime = Math.floor((((+eventDate - timespan) - +new Date(new Date().toUTCString()))) / 1000);
 
   const days = Math.floor(leftTime / (3600 * 24));
   const hours = Math.floor((leftTime % (3600 * 24)) / 3600);

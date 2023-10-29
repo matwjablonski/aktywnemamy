@@ -55,7 +55,7 @@ const EventBox: FC<EventBox> = ({
       from-main
       text-gray-dark
     ">
-      {new Intl.DateTimeFormat('pl-PL', { dateStyle: 'long'}).format(eventDate)}
+      {new Intl.DateTimeFormat('pl-PL', { dateStyle: 'long' }).format(eventDate)}
       <div className="flex flex-col items-start gap-1">
         {canRegister(eventDate) && registrationUrl && (
           <a href={registrationUrl} rel="nofollow noreferrer noopener" target="_blank">
