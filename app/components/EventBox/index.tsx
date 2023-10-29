@@ -1,3 +1,5 @@
+'use client';
+
 import { Event } from '@/app/data/events';
 import { calculateEndHour, canRegister, isEventInPast } from '@/app/utils/events';
 import Image from 'next/image';
