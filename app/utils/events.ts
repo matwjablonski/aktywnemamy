@@ -18,7 +18,7 @@ export const getAllSortedEvents = (events: Event[]): Event[] => {
 }
 
 export const calculateEndHour = (eventDate: Date, duration: number): string => {
-  const eventStartHour = new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short'}).format(eventDate);
+  const eventStartHour = new Intl.DateTimeFormat('pl-PL', { timeStyle: 'short' }).format(eventDate);
 
   const [ hours, minutes ] = eventStartHour.split(':');
 

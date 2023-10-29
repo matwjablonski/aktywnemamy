@@ -1,15 +1,19 @@
 import Container from '../components/Container'
 import EventBox from '../components/EventBox';
 import { events } from '../data/events';
-import { getAllSortedEvents } from '../utils/events';
+import { getAllSortedEvents, getClosestEvents } from '../utils/events';
 
 const EventsPage = () => {
   const nextEvents = getAllSortedEvents(events);
+  const closeEvents = getClosestEvents(events);
+
+  console.log(closeEvents);
+  console.log(nextEvents);
 
   return (
     <div className="mt-[110px]">
       <Container>
-        {nextEvents.map(event => (
+        {closeEvents.map(event => (
           <EventBox {...event} key={event.id} withArchive showDetails />
         ))}
       </Container>
