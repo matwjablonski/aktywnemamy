@@ -1,5 +1,6 @@
+'use client';
+
 import Container from '../components/Container';
-import EventBox from '../components/EventBox';
 import RegistrationEventBox from '../components/RegistrationEventBox';
 import SectionTitle from '../components/SectionTitle';
 import { events } from '../data/events';
