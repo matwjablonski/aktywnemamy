@@ -25,7 +25,7 @@ const MainNav = () => {
         md:top-auto
       `}>
         <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
-          <a className="whitespace-nowrap cursor-default opacity-30">O inicjatywie</a>
+          <Link className="whitespace-nowrap" href="/o-inicjatywie">O inicjatywie</Link>
         </li>
         <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
           <Link href="/wydarzenia" className="whitespace-nowrap">Wydarzenia</Link>

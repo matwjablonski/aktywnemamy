@@ -35,12 +35,13 @@ export const canRegister = (eventDate: Date, daysToRegister = DAYS_TO_REGISTRATI
   const difference = Math.floor(((+eventDate - +new Date())) / 1000);
   const days = Math.floor(difference / (3600 * 24));
   const hours = Math.floor((difference % (3600 * 24)) / 3600);
+  const minutes = Math.floor((difference % (3600 * 24)) % 60);
 
   if (Math.sign(difference) === -1) {
     return false;
   }
 
-  return (days < daysToRegister) || (days === daysToRegister && hours === 0);
+  return (days < daysToRegister) || (days === daysToRegister && hours === 0 && minutes === 0);
 }
 
 export const isEventInPast = (eventDate: Date): boolean => {
