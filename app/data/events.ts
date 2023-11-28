@@ -210,7 +210,7 @@ export const events: Event[] = [
     trainer: 'Tomasz Chełek',
     place: 'Online',
     image: '/events/zaprojektuj-zwiazek.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/KWhjCG4FtyhWSKSb7',
     detailsUrl: '',
   },
   {
@@ -222,7 +222,7 @@ export const events: Event[] = [
     trainer: 'Aneta Biadun',
     place: 'Świetlica w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/iWm8fycvokXNNY8XA',
     detailsUrl: '',
   },
   {
@@ -234,7 +234,7 @@ export const events: Event[] = [
     trainer: 'Joanna Słowińska',
     place: 'Świetlica w Dąbrowie',
     image: '/events/male-dzwieki.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/D6TryqjosJdyyKK3A',
     detailsUrl: '',
   },
   {
@@ -246,7 +246,7 @@ export const events: Event[] = [
     trainer: 'Anna Gavrylina',
     place: 'Świetlica w Dąbrowie',
     image: '/events/canva-prezent.png',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/4LgRFvCvsSArWLJb7',
     detailsUrl: '',
   },
   {
@@ -258,7 +258,7 @@ export const events: Event[] = [
     trainer: 'Tomasz Chełek',
     place: 'Świetlica w Dąbrowie',
     image: '/events/zaprojektuj-zwiazek.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/DuQNm9vMKMSiJVmUA',
     detailsUrl: '',
   },
   {
@@ -270,7 +270,7 @@ export const events: Event[] = [
     trainer: 'Adam Szyndler',
     place: 'Świetlica w Dąbrowie',
     image: '/events/prawo-rodzinne.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/RRejMkZaQuDK5vhB8',
     detailsUrl: '',
   },
   {
@@ -282,7 +282,7 @@ export const events: Event[] = [
     trainer: 'Aneta Biadun',
     place: 'Świetlica w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/nQJnXqCzfPwHnDi58',
     detailsUrl: '',
   },
   {
@@ -294,7 +294,7 @@ export const events: Event[] = [
     trainer: 'Martyna Jóźwiak',
     place: 'Świetlica w Dąbrowie',
     image: '/events/fizjoterapeuta.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/WzigmYEkGpfwDqJBA',
     detailsUrl: '',
   },
 ]
