@@ -31,7 +31,7 @@ const MainNav = () => {
           <Link href="/wydarzenia" className="whitespace-nowrap">Wydarzenia</Link>
         </li>
         <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md mb-2 md:mb-0 md:text-sm">
-          <a href="/" className="whitespace-nowrap cursor-default opacity-30">Kontakt</a>
+          <Link href="/kontakt" className="whitespace-nowrap">Kontakt</Link>
         </li>
         <li className="md:hidden mt-8">
           <ButtonLink label="Zapisy" link="/zapisy" className="" />
