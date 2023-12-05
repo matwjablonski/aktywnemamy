@@ -211,7 +211,7 @@ export const events: Event[] = [
     place: 'Online',
     image: '/events/zaprojektuj-zwiazek.jpg',
     registrationUrl: 'https://forms.gle/KWhjCG4FtyhWSKSb7',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/714556650293394/',
   },
   {
     id: 'cwiczenia-ruchowe-grudzien-1',
@@ -223,7 +223,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/aktywna-mama-cwiczenia.jpg',
     registrationUrl: 'https://forms.gle/iWm8fycvokXNNY8XA',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/1281489235974341/1281489245974340/',
   },
   {
     id: 'male-dzwieki-grudzien-1',
@@ -235,7 +235,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/male-dzwieki.jpg',
     registrationUrl: 'https://forms.gle/D6TryqjosJdyyKK3A',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/870272437925394/',
   },
   {
     id: 'zaprojektuj-prezent-canva-grudzien-1',
@@ -247,7 +247,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/canva-prezent.png',
     registrationUrl: 'https://forms.gle/4LgRFvCvsSArWLJb7',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/884268606269900',
   },
   {
     id: 'zaprogramuj-swoj-zwiazek-grudzien-mezczyzna',
@@ -259,7 +259,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/zaprojektuj-zwiazek.jpg',
     registrationUrl: 'https://forms.gle/DuQNm9vMKMSiJVmUA',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/337001802419072',
   },
   {
     id: 'doradztwo-prawne-grudzien',
@@ -271,7 +271,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/prawo-rodzinne.jpg',
     registrationUrl: 'https://forms.gle/RRejMkZaQuDK5vhB8',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/712367353873160/',
   },
   {
     id: 'cwiczenia-ruchowe-grudzien-2',
@@ -295,6 +295,6 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/fizjoterapeuta.jpg',
     registrationUrl: 'https://forms.gle/WzigmYEkGpfwDqJBA',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/868349311483683/',
   },
 ]
