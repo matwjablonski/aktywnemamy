@@ -8,7 +8,7 @@ import { events } from '../data/events';
 import { getPassedEvents, getClosestEvents } from '../utils/events';
 
 const EventsPage = () => {
-  const nextEvents = getClosestEvents(events);
+  const nextEvents = getClosestEvents(events, 999);
   const passedEvents = getPassedEvents(events);
   const [isArchiveVisible, setIsArchiveVisible] = useState(false);
 
