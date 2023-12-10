@@ -31,6 +31,7 @@ export default function RootLayout({
         <div className="
           bg-snowflakes
           bg-origin-content
+          opacity-70
           z-0
           h-full
           w-full
