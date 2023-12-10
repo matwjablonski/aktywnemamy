@@ -7,10 +7,12 @@ const ReviewCTA = () => {
       className="
         fixed
         bottom-20
-        right-20
+        right-5
+        md:right-20
         z-20
         bg-main
-        p-7
+        p-3
+        md:p-7
         shadow-xl
         group
         rounded-[50px]
@@ -26,11 +28,16 @@ const ReviewCTA = () => {
         <div
           className="
             absolute
-            -top-20
-            w-80
-            right-10
+            -top-28
+            md:-top-20
+            w-60
+            md:w-80
+            right-0
+            md:right-10
             bg-secondary
             p-4
+            text-xl
+            md:text-base
             text-white
             invisible
             group-hover:visible
