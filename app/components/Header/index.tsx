@@ -40,12 +40,12 @@ const Header = () => {
   })
 
   return (
-    <header className={`${styles.Header} fixed z-10 w-full top-0 transition-all ${!isScrolled && pathname === '/' && 'bg-transparent'}`}>
+    <header className={`${styles.Header} fixed w-full top-0 transition-all z-20 ${!isScrolled && pathname === '/' && 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-5">
         <div className="flex justify-between align-middle items-center">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo-xmas.png"
               alt="Aktywne Mamy logo"
               className="max-w-70 md:max-w-100 w-52"
               width={425}

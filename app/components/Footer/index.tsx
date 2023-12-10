@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className={styles.Footer}>
+    <footer className={`${styles.Footer} z-10 relative`}>
       <div className="container mx-auto px-4 py-5">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-6 mb-6 md:mb-0">

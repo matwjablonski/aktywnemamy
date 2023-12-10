@@ -19,9 +19,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
-      <body className={`${sourceSans.className} min-h-screen flex flex-col justify-between`}>
+      <body
+        className={`
+          ${sourceSans.className}
+          min-h-screen 
+          flex 
+          flex-col 
+          justify-between
+        `}
+      >
+        <div className="
+          bg-snowflakes
+          bg-origin-content
+          z-0
+          h-full
+          w-full
+          fixed
+          mt-[110px]
+        "></div>
         <Header />
-        <main>
+        <main className='z-10'>
           {children}
         </main>
         <ReviewCTA />

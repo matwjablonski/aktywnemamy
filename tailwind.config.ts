@@ -17,6 +17,9 @@ const config: Config = {
     backgroundSize: {
       16: '4rem',
     },
+    backgroundImage: {
+      snowflakes: 'url("/snowflakes.png")',
+    },
     colors: {
       white: '#ffffff',
       black: '#000',
