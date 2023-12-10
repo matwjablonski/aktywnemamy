@@ -18,6 +18,12 @@ export default function RegistrationPage() {
             {nextEvents.map(event => (
               <RegistrationEventBox {...event} key={event.id} />
             ))}
+            {nextEvents.length === 0 && (
+              <div className="text-center w-full">
+                <h3 className="text-2xl mb-2">Kolejne wydarzenia już wkrótce.</h3>
+                <p>Pracujemy nad tym. Śledź nasze media społecznościowe lub zaglądaj tutaj, aby być na bieżąco.</p>
+              </div>
+            )}
           </div>
       </div>
     </Container>
