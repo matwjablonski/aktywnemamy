@@ -1,6 +1,8 @@
 import ButtonLink from '../components/ButtonLink'
 import Container from '../components/Container'
+import Review from '../components/Review';
 import SectionTitle from '../components/SectionTitle';
+import { reviews } from '../data/reviews';
 
 const ReviewsPage = () => {
   return (
@@ -26,7 +28,12 @@ const ReviewsPage = () => {
             link="https://forms.gle/CKPqcLJ3cpAAUWiX9"
           />
         </div>
-        <p className="text-center mb-48 text-gray">Nie ma jeszcze opinii. Napisz coś i bądź pierwsza / pierwszy.</p>
+        <div className="flex gap-8 gap-y-20 flex-wrap justify-center mb-48">
+          {reviews.length > 0 && reviews.map(review => <Review {...review} key={review.date} />)}
+        </div>
+        {reviews.length === 0 && (
+          <p className="text-center mb-48 text-gray">Nie ma jeszcze opinii. Napisz coś i bądź pierwsza / pierwszy.</p>
+        )}
       </Container>
     </div>
   );
