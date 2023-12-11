@@ -72,4 +72,10 @@ export const reviews: Review[] = [
     rate: 5,
     date: '2023-12-10 23:48:48',
   },
+  {
+    name: 'Agnieszka',
+    text: 'Cudowna inicjatywa wspierająca nas kobiety i niejednokrotnie poruszająca trudne tematy. To ogromna pomoc i wsparcie dla nas. Miło spędzony czas i spora dawka wiedzy. Tu poza dużą aglomeracją bardzo potrzebne są tego typu wydarzenia, jednoczą nas jako społeczność i nie pozostawiają na uboczy.',
+    rate: 5,
+    date: '2023-12-11 08:48:53',
+  },
 ];
