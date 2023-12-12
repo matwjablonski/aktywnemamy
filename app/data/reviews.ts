@@ -78,4 +78,40 @@ export const reviews: Review[] = [
     rate: 5,
     date: '2023-12-11 08:48:53',
   },
+  {
+    name: 'Karolina',
+    text: 'Rewelacyjny pomysł, wspaniała inicjatywa, oby w przyszłości każda mama mogła skorzystać z takich zajęć i warsztatów.',
+    rate: 5,
+    date: '2023-12-12 09:36:10',
+  },
+  {
+    name: 'Anna',
+    text: 'Jestem bardzo zadowolona z udziału w zajęciach ""Aktywne Mamy"". To fantastyczna inicjatywa, która umożliwia mamom spędzenie aktywnego czasu z dzieckiem, jednocześnie zdobywając cenne informacje i uczestnicząc w fascynujących wykładach. Jednym z najważniejszych atutów tych spotkań jest możliwość wzięcia dziecka ze sobą na zajęcia. To niewątpliwie ułatwia udział w wydarzeniach, dając nam, mamom, swobodę i komfort. Wykłady są niezwykle ciekawe, a przedstawiane informacje są nie tylko pomocne, ale również inspirujące. Dużo przydatnych wskazówek i porad, które można zastosować w codziennym życiu rodzinnym. To dla mnie nie tylko okazja do aktywności fizycznej, ale także do poszerzania wiedzy na temat macierzyństwa i wychowywania dzieci. Dziękuję organizatorom za stworzenie tego wyjątkowego miejsca, gdzie jako mama mogę rozwijać się zarówno fizycznie, jak i intelektualnie, czerpiąc radość z czasu spędzonego z dzieckiem. Polecam "Aktywne Mamy" z całego serca!',
+    rate: 5,
+    date: '2023-12-12 09:39:26',
+  },
+  {
+    name: 'Jarosław',
+    text: 'Bardzo polecam zajęcia dla ojców dotyczące budowania dobrej relacji partnerskiej w nowej roli rodzica. Dzięki nim lepiej rozumiem moją partnerkę i czuję, że nasza wspólna przygoda jako rodzice staje się jeszcze bardziej spójna. Warto wziąć udział!',
+    rate: 5,
+    date: '2023-12-12 09:42:51',
+  },
+  {
+    name: 'Marta',
+    text: 'Wspaniała inicjatywa. Miło jest się spotkać z innymi mamami i choć na trochę oderwać się od codziennych obowiązków. Świetnie dobrana tematyka spotkań. No i cudowna atmosfera. Oby więcej spotkań.',
+    rate: 5,
+    date: '2023-12-12 10:23:02',
+  },
+  {
+    name: 'Monika',
+    text: 'Niezwykle wartościowa Inicjatywa! Bardzo potrzebna mamom i ich maleństwom. Różnorodność zajęć i warsztatów wpływała pozytywnie na poprawę zdrowia zarówno fizycznego i psychicznego. Atmosfera panujacą na zajeciach była bardzo wspierajaca, pokazywala niezywkla sile kobiet i mam. Świetlica w Dąbrowie dala przyjazna dzieciom przestrzen do organizacji Inicjatywy. Trzymam kciuki aby takie działania udało się kontynuować.',
+    rate: 5,
+    date: '2023-12-12 10:33:41',
+  },
+  {
+    name: 'Paula',
+    text: 'Bardzo ciekawa inicjatywa, która powinna być kontynuowana. Fantastyczne zajęcia z ćwiczeniami. Oby więcej było takich wydarzeń w naszej gminie:)',
+    rate: 5,
+    date: '2023-12-12 10:55:10',
+  },
 ];
