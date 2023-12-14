@@ -13,7 +13,7 @@ const ReviewsPage = () => {
       <Container>
         <SectionTitle title="Opinie" subtitle="Co myślą inni o naszej inicjatywie" />
         <p className="text-md text-center max-w-lg mx-auto mb-8">Poniżej znajdziesz opinie, które zostały napisane przez uczestniczki i uczestników spotkań w ramach naszej inicjatywy.</p>
-        <p className="text-md text-center">Średnia ocena naszych uczestniczek i uczestników: <strong>{average}/5</strong></p>
+        <p className="text-md text-center">Średnia ocena uczestniczek i uczestników: <strong>{average}/5</strong></p>
         <p className="text-md text-center mb-16">Liczba napisanych opinii: <strong>{reviews.length}</strong>. Dziękujemy!</p>
         <div className="text-center">
           <ButtonLink
