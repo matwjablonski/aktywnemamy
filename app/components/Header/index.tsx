@@ -43,18 +43,18 @@ const Header = () => {
     <header className={`${styles.Header} fixed w-full top-0 transition-all z-20 ${!isScrolled && pathname === '/' && 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-5">
         <div className="flex justify-between align-middle items-center">
-          <Link href="/">
+          <Link href="/" className="mr-4">
             <Image
               src="/logo-xmas.png"
               alt="Aktywne Mamy logo"
-              className="max-w-70 md:max-w-100 w-52"
+              className="max-w-70 md:max-w-100 w-52 min-w-[130px]"
               width={425}
               height={135}
               priority
             />
           </Link>
           <MainNav />
-          <ButtonLink label="Zapisy" link="/zapisy" className="hidden md:inline-block" />
+          <ButtonLink label="Zapisy" link="/zapisy" className="hidden md:inline-block ml-4" />
         </div>
       </div>
     </header>
