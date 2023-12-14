@@ -12,12 +12,15 @@ const ArticlePreview: FC<News> = ({ title, date, shortText, magazine, link}) => 
         pt-8
         min-w-[300px]
         max-w-[450px]
-        w-[300px]
+        w-full
         md:min-w-[450px]
         md:w-[450px]
-        odd:mr-4
-        even:ml-4
-        mb-16
+        mr-4
+        md:even:mr-0
+        md:odd:mr-4
+        md:even:ml-4
+        mb-8
+        md:mb-16
       "
     >
       <div>

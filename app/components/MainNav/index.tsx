@@ -13,7 +13,7 @@ const MainNav = () => {
         </svg>
       </div>
       <ul className={`
-        gap-4
+        gap-8
         ${isOpenMenu ? 'block absolute top-[106px] right-0 w-3/4 sm:w-1/2 bg-gray p-10 text-right': 'hidden'}
         
         md:flex
