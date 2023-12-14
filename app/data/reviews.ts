@@ -114,4 +114,22 @@ export const reviews: Review[] = [
     rate: 5,
     date: '2023-12-12 10:55:10',
   },
+  {
+    name: 'Patrycja',
+    text: 'Przyjazna atmosfera, kompetentni wykładowcy, miejsce przystosowane dla dzieci i dorosłych.',
+    rate: 5,
+    date: '2023-12-12 12:57:22',
+  },
+  {
+    name: 'Aleksandra',
+    text: 'Świetna inicjatywa w naszej gminie! Takie spotkania wiele wnoszą - integracja, wymiana doświadczeń, nowa wiedza, aktywność fizyczna dla młodych mam. Mam nadzieję, że projekt będzie kontynuowany. Tego nam potrzeba. :) ',
+    rate: 5,
+    date: '2023-12-13 15:42:50',
+  },
+  {
+    name: 'Daria',
+    text: 'Cudna inicjatywa! Na rynku jest coraz więcej wydarzeń dla kobiet w ciąży, natomiast zdecydowanie brakuje zajęć dla mam z maluszkami. Inicjatywa Aktywne Mamy pozwala na integrację, wymianę doświadczeń oraz na zerwanie z rutyną i poczuciem samotności w macierzyństwie. Dzięki różnorodnym zajęciom można zatroszyć się nie tylko o maluszka, ale też o siebie, co bez wątpienia jest korzystne dla zdrowia fizycznego i psychicznego. Oby jak najwięcej tego typu wydarzeń w Gminie Dopiewo! :) ',
+    rate: 5,
+    date: '2023-12-13 17:07:50',
+  },
 ];
