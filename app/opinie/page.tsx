@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import ButtonLink from '../components/ButtonLink'
 import Container from '../components/Container'
 import Review from '../components/Review';
@@ -5,11 +6,15 @@ import SectionTitle from '../components/SectionTitle';
 import { reviews } from '../data/reviews';
 
 const ReviewsPage = () => {
+  const average = useMemo(() => Math.round(reviews.reduce((acc, review) => review.rate + acc, 0) / reviews.length * 100) / 100, [])
+
   return (
     <div className="mt-[110px]">
       <Container>
         <SectionTitle title="Opinie" subtitle="Co myślą inni o naszej inicjatywie" />
-        <p className="text-md text-center max-w-lg mx-auto mb-16">Poniżej znajdziesz opinie, które zostały napisane przez uczestniczki i uczestników spotkań w ramach naszej inicjatywy.</p>
+        <p className="text-md text-center max-w-lg mx-auto mb-8">Poniżej znajdziesz opinie, które zostały napisane przez uczestniczki i uczestników spotkań w ramach naszej inicjatywy.</p>
+        <p className="text-md text-center">Średnia ocena naszych uczestniczek i uczestników: <strong>{average}/5</strong></p>
+        <p className="text-md text-center mb-16">Liczba napisanych opinii: <strong>{reviews.length}</strong>. Dziękujemy!</p>
         <div className="text-center">
           <ButtonLink
             className="
