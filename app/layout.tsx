@@ -37,6 +37,7 @@ export default function RootLayout({
           w-full
           fixed
           mt-[110px]
+          sky-animate
         "></div>
         <Header />
         <main className='z-10'>
