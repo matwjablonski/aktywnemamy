@@ -132,4 +132,22 @@ export const reviews: Review[] = [
     rate: 5,
     date: '2023-12-13 17:07:50',
   },
+  {
+    name: 'Paulina',
+    text: 'Super inicjatywa i czekamy na więcej! ;) Miła odskocznia od codzienności, ogrom cennych informacji. Zajęcia z fizjoterapeutką cudowne. Pozdrawiam.',
+    rate: 5,
+    date: '2023-12-15 12:13:46',
+  },
+  {
+    name: 'Jagoda',
+    text: 'Zdecydowanie świetna inicjatywa. Ogrom wiedzy, ważnego wsparcia, ruchu, a także cudownej zabawy. Rewelacyjne spotkania w miłej, radosnej atmosferze. Cieszę się, że udało mi się uczestniczyć w tak dobrze zorganizowanych zajęciach i mam nadzieję, że jeszcze będzie szansa to powtórzyć.',
+    rate: 5,
+    date: '2023-12-15 19:34:04',
+  },
+  {
+    name: 'Ewelina',
+    text: 'Fantastyczna i bardzo potrzebna inicjatywa. Zajęcia prowadzone profesjonalnie, ale w swobodnej i miłej atmosferze. Dzięki spotkaniom miałam okazję poznać inne Mamy, a także obserwować zachowanie mojego maleństwo wśród rówieśników.',
+    rate: 5,
+    date: '2023-12-18 10:21:23',
+  },
 ];
