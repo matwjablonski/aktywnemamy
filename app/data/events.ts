@@ -301,7 +301,7 @@ export const events: Event[] = [
     id: 'moja-pierwsza-strona-styczen-1',
     title: 'Moja pierwsza strona 1/3 spotkań',
     description: 'Cykl wrsztatów składających się z części teoretycznej i praktycznej, podczas których uczestnicy nabędą wiedzę do zakodowania swojej pierwszej prostej strony internetowej na bazie WordPress. ',
-    eventDate: new Date('Fri, 19 Jan 2023 16:00:00 GMT'),
+    eventDate: new Date('Fri, 19 Jan 2024 16:00:00 GMT'),
     duration: 2.5,
     trainer: 'Mateusz Jabłoński',
     place: 'Świetlica w Dąbrowie',
