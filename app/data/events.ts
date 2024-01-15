@@ -307,7 +307,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/coffee.jpg',
     registrationUrl: 'https://forms.gle/MDqixA5LerodMs8r9',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/spotkanie-mam-luzne-rozmowy/2326668167519645/',
   },
   {
     id: 'moja-pierwsza-strona-styczen-1',
@@ -319,7 +319,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/wp.png',
     registrationUrl: 'https://forms.gle/vLu9Z2C8JjT2uSgQ8',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/moja-pierwsza-strona-interneto/1051074996121399/',
   },
   {
     id: 'czat-GPT-styczen',
@@ -331,7 +331,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/chat.jpg',
     registrationUrl: 'https://forms.gle/bwqucnt4pKWoivA88',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/szkolenie-z-chatgpt/306976245678546/',
   },
   {
     id: 'moja-pierwsza-strona-styczen-2',
@@ -343,7 +343,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/wp.png',
     registrationUrl: 'https://forms.gle/xooLKYZaheAkHmZT8',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/moja-pierwsza-strona-interneto/414015517627480/',
   },
   {
     id: 'psychoterapeuta-styczen',
@@ -355,7 +355,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/relations.jpg',
     registrationUrl: 'https://forms.gle/2AQAfZ82JxVsgkup7',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/zaprogramuj-swoj-zwiazek-o-rel/360700263255160/',
   },
   {
     id: 'make-up-Patrycja-styczen',
@@ -367,6 +367,6 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/makeup.jpg',
     registrationUrl: 'https://forms.gle/jSgAKHPs7yzkdNHQ7',
-    detailsUrl: '',
+    detailsUrl: 'https://facebook.com/events/s/makijaz-dzienny-ktory-ukryje-o/748338683501215/',
   },
 ];
