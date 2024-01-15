@@ -52,16 +52,3 @@ body {
   background-image:
     radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
 }
-
-@keyframes sky {
-  0% {
-    transform: translate(0) scale(1) rotate(0);
-  }
-  100% {
-    transform: translate(10px, 10px) scale(1.1) rotate(7deg);
-  }
-}
-
-.sky-animate {
-  animation: sky 15s linear infinite alternate none;
-}

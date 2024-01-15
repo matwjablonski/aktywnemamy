@@ -45,7 +45,7 @@ const Header = () => {
         <div className="flex justify-between align-middle items-center">
           <Link href="/" className="mr-4">
             <Image
-              src="/logo-xmas.png"
+              src="/logo.png"
               alt="Aktywne Mamy logo"
               className="max-w-70 md:max-w-100 w-52 min-w-[130px]"
               width={425}

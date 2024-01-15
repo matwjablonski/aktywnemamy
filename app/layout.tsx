@@ -28,17 +28,6 @@ export default function RootLayout({
           justify-between
         `}
       >
-        <div className="
-          bg-snowflakes
-          bg-origin-content
-          opacity-70
-          z-0
-          h-full
-          w-full
-          fixed
-          mt-[110px]
-          sky-animate
-        "></div>
         <Header />
         <main className='z-10'>
           {children}
