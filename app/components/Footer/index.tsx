@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-6 mb-6 md:mb-0">
             <Image
-              src="/logo-opsdopiewo.png"
-              alt="Aktywne Mamy logo"
+              src="/cusdopiewo-logo.png"
+              alt="Logo Centrum Usług Społecznych w Dopiewie"
               className="block"
               width={55}
               height={45}
@@ -17,7 +17,7 @@ const Footer = () => {
             />
             <Image
               src="/herb-dopiewo.webp"
-              alt="Aktywne Mamy logo"
+              alt="Herb Gminy Dopiewo"
               className="block"
               width={55}
               height={62}
