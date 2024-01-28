@@ -359,7 +359,7 @@ export const events: Event[] = [
   },
   {
     id: 'make-up-Patrycja-styczen',
-    title: 'Makijaż dzienny - ukrywajacy oznaki starzenia ;)',
+    title: 'Makijaż dzienny - ukrywajacy oznaki zmęczenia ;)',
     description: 'Hej nazywam się Patrycja Przybylska z wykształcenia jestem kosmetologiem a od 9 lat zajmuje się głównie Makijażem. Zapraszam was serdecznie na warsztaty z makijażu dziennego , podczas którego postaram wam się przekazać jak w łatwy i szybki sposób wykonać makijaż który ukryje nieprzespane noce młodych mam ❤️',
     eventDate: new Date('Wed, 31 Jan 2024 09:00:00 GMT'),
     duration: 1.75,
