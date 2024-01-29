@@ -18,7 +18,8 @@ export const getAllSortedEvents = (events: Event[]): Event[] => {
 }
 
 export const getPassedEvents = (events: Event[]): Event[] => {
-  return events.filter(event => event.eventDate.getTime() < new Date().getTime());
+  return events.filter(event => event.eventDate.getTime() < new Date().getTime())
+    .sort((ev1, ev2) => ev1.eventDate.getTime() - ev2.eventDate.getTime());
 }
 
 export const calculateEndHour = (eventDate: Date, duration: number): string => {
