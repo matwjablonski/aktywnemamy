@@ -379,7 +379,7 @@ export const events: Event[] = [
     place: 'Świetlica w Dąbrowie',
     image: '/events/wp.png',
     registrationUrl: 'https://forms.gle/1uKuWtRR5FWgZyrC6',
-    detailsUrl: '',
+    detailsUrl: 'https://www.facebook.com/events/1383764935567146/',
   },
   {
       id: 'fizjoterapeuta-dzieci-luty-1',
@@ -391,7 +391,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/fizjo3m.jpg',
       registrationUrl: 'https://forms.gle/HcEpWtCgnfaY8zrb7',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/7197175106988238/',
     },
     {
       id: 'trening-luty-1',
@@ -403,7 +403,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: 'events/aktywna-mama-cwiczenia.jpg',
       registrationUrl: 'https://forms.gle/ACLMxSHd2MD2K3KK6',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/3558949637727280/',
     },
     {
       id: 'kawa-z-aktywnymi-mamami-luty-1',
@@ -415,7 +415,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/coffee.jpg',
       registrationUrl: 'https://forms.gle/ckVZM9pBhirurehE8',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1112970423470679/',
     },
     {
       id: 'diagnostyka-luty',
@@ -427,7 +427,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/testdiagno.jpg',
       registrationUrl: 'https://forms.gle/aLdSTTTuHWwg8VuU7',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1123518948559667/',
     },
     {
       id: 'neurologopeda-luty',
@@ -439,7 +439,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/mowa.jpg',
       registrationUrl: 'https://forms.gle/fHu94xYEbAoz3pH78',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1080671536356887/',
     },
     {
       id: 'fizjoterapeuta-dzieci-luty-2',
@@ -451,7 +451,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/fizjo12m.jpg',
       registrationUrl: 'https://forms.gle/mzAADigaGNtggL7BA',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/936315611345756/',
     },
     {
       id: 'rekruter-luty-cz.1',
@@ -463,7 +463,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/mamawpracy.jpg',
       registrationUrl: 'https://forms.gle/jNcEawyvgr65XiTf6',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1411066366462061/',
     },
     {
       id: 'psycholog-luty-1',
@@ -475,7 +475,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/relaks.jpg',
       registrationUrl: 'https://forms.gle/RV1K4ndfYZSnfyETA',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/4117425528489406/',
     },
     // {
     //   id: 'fitoterapia-dzieci-MARZEC',
