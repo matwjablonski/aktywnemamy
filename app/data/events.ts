@@ -559,7 +559,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/czytanie-dzieciom.jpg',
       registrationUrl: 'https://forms.gle/zMmrPVPWTXD5vwrX8',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/929186351991422/',
     },
     {
       id: 'angielski1-kwiecien-2024',
@@ -571,7 +571,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/angielski.jpg',
       registrationUrl: 'https://forms.gle/SVGBisATMP9mQMtM7',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1443588676249188/',
     },
     {
       id: 'trening-kwiecien-2024',
@@ -583,19 +583,19 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/aktywna-mama-cwiczenia.jpg',
       registrationUrl: 'https://forms.gle/i97LB3zNZMSv2hQV9',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1571310857036279/',
     },
     {
       id: 'angielski2-kwiecien-2024',
       title: 'Angielski z Julią. Warsztat 2/3',
-      description: 'There and then – powtórka z czasów przeszłych, relacjonowanie wydarzeń z przeszłości z użyciem dat, opowiadanie o doświadczeniach. 1. Czas past simple, past continuous i present perfect, zastosowanie, rozpoznawanie, konstrukcja, ćwiczenia. 2. Relacjonowanie wydarzeń z przeszłości przy użyciu czasu past simple, określenia czasu, opowiadanie o doświadczeniach przy użyciu czasu present perfect',
+      description: 'There and then – powtórka z czasów przeszłych, relacjonowanie wydarzeń z przeszłości z użyciem dat, opowiadanie o doświadczeniach. 1. Czas past simple, present perfect i past perfect, zastosowanie, rozpoznawanie, konstrukcja, ćwiczenia. 2. Relacjonowanie wydarzeń z przeszłości przy użyciu czasu past simple, określenia czasu, opowiadanie o doświadczeniach przy użyciu czasu present perfect.',
       eventDate: new Date('Fri, 12 Apr 2024 16:00:00 GMT'),
       duration: 1.5,
       trainer: 'Julia Śmidowicz',
       place: 'Świetlica w Dąbrowie',
       image: '/events/angielski.jpg',
       registrationUrl: 'https://forms.gle/9qC7ex3MdAagtyhQ9',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/7466698363394959/',
     },
     {
       id: 'jezyk migowy-kwiecien-2024',
@@ -607,7 +607,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/migowy.jpg',
       registrationUrl: 'https://forms.gle/iSgU9LfZrTi7EEWm8',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/1214134509560341/',
     },
     {
       id: 'angielski3-kwiecien-2024',
@@ -619,7 +619,7 @@ export const events: Event[] = [
       place: 'Świetlica w Dąbrowie',
       image: '/events/angielski.jpg',
       registrationUrl: 'https://forms.gle/TE4FY292ZHhQPLtj8',
-      detailsUrl: '',
+      detailsUrl: 'https://www.facebook.com/events/441091235248893/',
     },
     {
       id: 'fizjobroszka-kwiecien-2024',
