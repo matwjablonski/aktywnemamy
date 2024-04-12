@@ -21,4 +21,11 @@ export const news: News[] = [
     link: 'https://dopiewo.pl/aktualnosci/2023-11-02/bezplatne-warsztaty-treningi-szkolenia-dla-mam',
     magazine: 'Gmina Dopiewo'
   },
+  {
+    date: '2024-03-01',
+    title: 'Aktywne mamy w gminie Dopiewo',
+    shortText: 'Misja projektu „Aktywne mamy” w Gminie Dopiewo koncentruje się na stworzeniu przestrzeni wsparcia i wymiany doświadczeń dla rodzin z dziećmi, ze szczególnym uwzględnieniem matek w początkowym okresie macierzyństwa.',
+    link: 'https://www.maszglos.pl/uczestnik/aktywne-mamy-w-gminie-dopiewo/',
+    magazine: 'Masz Głos',
+  },
 ];

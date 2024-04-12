@@ -11,7 +11,7 @@ const NewsPage = () => {
         <SectionTitle title="Aktualności" subtitle="Aktywnie w mediach" />
         <p className="text-md text-center max-w-lg mx-auto mb-16">Poniżej znajdziesz informacje prasowe, które pojawiły się o nas w ostatnim czasie. Zapraszamy do lektury.</p>
         <div className="flex max-w-[960px] mx-auto flex-wrap">
-          {news.map(article => (
+          {news.reverse().map(article => (
             <ArticlePreview {...article} key={article.title} />
           ))}
         </div>
