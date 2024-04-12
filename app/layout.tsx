@@ -4,6 +4,8 @@ import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ReviewCTA from './components/ReviewCTA'
+import { Providers } from './providers'
+import { getServerSession } from 'next-auth'
 
 const sourceSans = Source_Sans_3({ subsets: ['latin'] })
 
@@ -12,11 +14,13 @@ export const metadata: Metadata = {
   description: 'Inicjatywa Oddolna Aktywne Mamy',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const session = await getServerSession();
+
   return (
     <html lang="pl">
       <body
@@ -28,11 +32,13 @@ export default function RootLayout({
           justify-between
         `}
       >
-        <Header />
-        <main className='z-10'>
-          {children}
-        </main>
-        <ReviewCTA />
+        <Providers session={session}>
+          <Header />
+          <main className='z-10'>
+            {children}
+          </main>
+          <ReviewCTA />
+        </Providers>
         <Footer />
       </body>
     </html>

@@ -7,8 +7,14 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import MainNav from '../MainNav';
+import { useSession } from 'next-auth/react';
+import UserIcon from '@/public/user.svg';
+import LockIcon from '@/public/lock.svg';
+import { LoginAction } from '../LoginAction';
+import { ProfilContextMenu } from '../ProfilContextMenu';
 
 const Header = () => {
+  const {data: session, status} = useSession();
   const [isScrolled, setIsScrolled] = useState(() => {
     if (typeof window !== "undefined") {
       return window.scrollY > 40;
@@ -54,7 +60,18 @@ const Header = () => {
             />
           </Link>
           <MainNav />
-          <ButtonLink label="Zapisy" link="/zapisy" className="hidden md:inline-block ml-4" />
+          <div className="flex gap-2 items-center">
+            <ButtonLink label="Zapisy" link="/zapisy" className="hidden md:inline-block ml-4" />
+            <div title={session?.user?.name || ''} className="rounded-full w-[50px] bg-main h-[50px] flex items-center justify-center">
+              {status === 'authenticated' && (
+                <ProfilContextMenu name={session?.user?.name || ''}>
+                  <Image src={UserIcon} alt="" />
+                </ProfilContextMenu>)}
+              {(status === 'unauthenticated' || status === 'loading') && (
+                <LoginAction><Image src={LockIcon} alt="" /></LoginAction>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </header>
