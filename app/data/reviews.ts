@@ -150,4 +150,16 @@ export const reviews: Review[] = [
     rate: 5,
     date: '2023-12-18 10:21:23',
   },
+  {
+    name: 'Paulina',
+    text: 'Pierwsze',
+    rate: 5,
+    date: '2024-01-16 13:30:31',
+  },
+  {
+    name: 'Alicja',
+    text: 'Super pomysł',
+    rate: 5,
+    date: '2024-01-31 16:03:14',
+  },
 ];
