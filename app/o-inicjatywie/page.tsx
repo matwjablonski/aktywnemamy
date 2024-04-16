@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Container from '../components/Container';
 import SectionTitle from '../components/SectionTitle';
 import { useId } from 'react';
+import { SocialMediaIcons } from '../components/SocialMediaIcons';
 
 export default function AboutPage() {
   const id = useId();
@@ -22,6 +23,9 @@ export default function AboutPage() {
               <p className="mb-8 mt-4 leading-relaxed">Od dnia 01.01.2024 grupa nieformalna Aktywne Mamy działa całkowicie bez dofinansowań, zapraszając na bezpłatne wydarzenia Specjalistów z różnych dziedzin, którzy nieodpłatnie dzielą się swoją fachową wiedzą oraz drogocennym czasem. W ramach współpracy partnerskiej udostępniono Inicjatywie przez Gminę Dopiewo świetlicę w Dąbrowie jako miejsce, w którym spotkania mogą być kontynuowane.</p>
               <p className="mt-4 leading-relaxed">Szczegóły na temat dostępnych wydarzeń publikowane są zarówno na stronie internetowej Inicjatywy: aktywnemamy.org, jak i w mediach społecznościowych: grupa Aktywne Mamy z gminy Dopiewo na platformie Facebook i Instagram.</p>
             </div>
+          </div>
+          <div className="flex justify-center gap-6 items-center mb-6 md:mb-12">
+            <SocialMediaIcons />
           </div>
           <div className="mb-24">
             <video key={id} controls className="mx-auto md:max-w-xl w-full">
