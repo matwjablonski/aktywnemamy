@@ -27,11 +27,14 @@ const MainNav = () => {
         <li className="uppercase tracking-wider text-white md:text-gray-dark hover:text-gray-light transition-all text-md md:mb-0 md:text-sm relative group py-2">
           <Link className="whitespace-nowrap" href="/o-inicjatywie">O inicjatywie</Link>
           <ul className="md:absolute md:hidden md:group-hover:block mt-2 md:mb-0 md:p-2 text-white md:bg-main-dark md:mt-2">
-            <li className="[&:not(:last-child)]:pb-1 hidden md:block">
+            <li className="[&:not(:last-child)]:pb-2 hidden md:block">
               <Link className="whitespace-nowrap" href="/o-inicjatywie">O nas</Link>
             </li>
-            <li className="[&:not(:last-child)]:pb-1">
+            <li className="[&:not(:last-child)]:pb-2">
               <Link className="whitespace-nowrap" href="/materialy-dodatkowe">Materiały dodatkowe</Link>
+            </li>
+            <li className="[&:not(:last-child)]:pb-2">
+              <Link className="whitespace-nowrap" href="/partnerzy">Wspierają nas</Link>
             </li>
           </ul>
         </li>

@@ -19,6 +19,9 @@ const FooterNav = () => {
         <li className="uppercase tracking-wider text-gray-dark hover:text-gray-light transition-all text-sm">
           <Link href="/o-inicjatywie  " className="whitespace-nowrap">O inicjatywie</Link>
         </li>
+        <li className="uppercase tracking-wider text-gray-dark hover:text-gray-light transition-all text-sm">
+          <Link className="whitespace-nowrap" href="/partnerzy">Partnerzy</Link>
+        </li>
         {/* <li className="uppercase tracking-wider text-gray-dark hover:text-gray-light transition-all text-sm">
           <Link href="/partnerzy" className="whitespace-nowrap">Partnerzy i sponsorzy</Link>
         </li> */}
