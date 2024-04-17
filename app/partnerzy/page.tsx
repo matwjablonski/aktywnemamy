@@ -9,7 +9,7 @@ export default function PartnersPage() {
 
   const createTitleFromDate = (date: string) => {
     const parsedDate = new Date(date);
-    const month = parsedDate.toLocaleString('default', { month: 'long' });
+    const month = parsedDate.toLocaleString('pl-PL', { month: 'long' });
     const year = parsedDate.getFullYear();
     return `${month} ${year}`;
   };
