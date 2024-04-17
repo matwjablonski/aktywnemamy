@@ -105,6 +105,7 @@ export const partners: { month: string, partners: Partner[] }[] = [
     month: '2024-01',
     partners: [
       CUS,
+      Jablonski,
     ],
   },
   {
@@ -119,6 +120,7 @@ export const partners: { month: string, partners: Partner[] }[] = [
     partners: [
       Rawa,
       OPSDopiewo,
+      Jablonski,
     ],
   },
   {
