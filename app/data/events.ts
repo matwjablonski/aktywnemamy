@@ -630,7 +630,7 @@ export const events: Event[] = [
       trainer: 'Martyna Stanisławska',
       place: 'Świetlica w Dąbrowie',
       image: '/events/broszka.jpg',
-      registrationUrl: '',
-      detailsUrl: '',
+      registrationUrl: 'https://forms.gle/EdzY65yhck88Rivb9',
+      detailsUrl: 'https://www.facebook.com/events/382928054556936/',
     },
 ];
