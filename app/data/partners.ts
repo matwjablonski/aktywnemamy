@@ -76,7 +76,22 @@ export const OPSDopiewo: Partner = {
   website: 'https://cusdopiewo.pl',
 };
 
+export const MON: Partner = {
+  name: 'Ministerstwo Obrony Narodowej',
+  logo: '/partners/mon.png',
+  website: 'https://www.gov.pl/web/obrona-narodowa',
+};
+
 export const partners: { month: string, partners: Partner[] }[] = [
+  {
+    month: '2024-05',
+    partners: [
+      AnetaBiadun,
+      MON,
+      CUS,
+      Jablonski,
+    ],
+  },
   {
     month: '2024-04',
     partners: [

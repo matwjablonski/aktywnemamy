@@ -672,7 +672,7 @@ export const events: Event[] = [
   {
     id: 'maj-2024-4',
     title: 'Ono rusza w świat - jak to przeżyć?',
-    description: '',
+    description: 'Warsztat z psychologiem. Więcej o wydarzeniu dodamy w najbliższym czasie.',
     eventDate: new Date('Wed, 22 May 2024 08:00:00 GMT'),
     duration: 2,
     trainer: 'Martyna Miziniak - Kużaj',
