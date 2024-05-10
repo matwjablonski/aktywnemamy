@@ -637,7 +637,7 @@ export const events: Event[] = [
     id: 'maj-2024-1',
     title: 'Makrama',
     description: 'Warsztaty z makramy. Podczas 1,5-godzinnych warsztatów pokażę Wam podstawowe sploty oraz stworzymy wspólnie makramowe zawieszki do doniczek.',
-    eventDate: new Date('Wed, 8 May 2024 08:00:00 GMT'),
+    eventDate: new Date('Wed, 17 May 2024 15:00:00 GMT'),
     duration: 1.5,
     trainer: 'Moniką Gorajewska - Czmoch',
     place: 'Świetlica w Dąbrowie',
