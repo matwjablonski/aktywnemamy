@@ -678,7 +678,7 @@ export const events: Event[] = [
     trainer: 'Martyna Miziniak - Kużaj',
     place: 'Świetlica w Dąbrowie',
     image: '/events/ono-swiat.jpg',
-    registrationUrl: '',
+    registrationUrl: 'https://forms.gle/h4gF8VEWfpWX7k1h8',
     detailsUrl: '',
   },
   {
