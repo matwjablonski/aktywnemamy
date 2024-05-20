@@ -684,7 +684,7 @@ export const events: Event[] = [
   {
     id: 'maj-2024-5',
     title: 'Trening Shape z Anetą',
-    description: '',
+    description: 'Serdecznie zapraszamy na wyjątkowe zajęcia fitness Shape organizowane z okazji Dnia Mamy! To doskonała okazja, aby spędzić aktywnie czas na świeżym powietrzu, ciesząc się pięknem natury i wzmacniając swoje ciało w towarzystwie innych mam. Zajęcia Shape to dynamiczny trening wzmacniający, który łączy elementy treningu siłowego oraz cardio. Podczas tych zajęć skupimy się na kształtowaniu sylwetki, poprawie kondycji oraz ogólnego samopoczucia. Czeka na Was 50 minut intensywnych ćwiczeń z wykorzystaniem masy własnego ciała i małych sprzętów (hantle, taśmy oporowe). **Co zabrać ze sobą:** - Wygodny strój sportowy - Mata do ćwiczeń/ koc - Woda - Ręcznik **Dla kogo:** Zajęcia są przeznaczone dla wszystkich mam, niezależnie od poziomu zaawansowania. Intensywność ćwiczeń bedzie dostosowana do możliwości uczestniczek, dzięki czemu każda mama będzie mogła czerpać radość z aktywności fizycznej i w pełni skorzystać z treningu. **Korzyści:** - Wzmocnienie mięśni i poprawa kondycji - Lepsze samopoczucie i poziom energii - Możliwość spędzenia czasu w gronie innych mam - Zdrowa dawka ruchu na świeżym powietrzu Nie przegap tej wyjątkowej okazji, by celebrować Dzień Mamy w aktywny sposób. Dołącz do nas na zajęcia Shape i poczuj moc w swoim ciele! Zapraszamy do zapisów. Czekamy na Ciebie!',
     eventDate: new Date('Sat, 25 May 2024 08:30:00 GMT'),
     duration: 1,
     trainer: 'Aneta Biadun',
