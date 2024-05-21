@@ -71,6 +71,13 @@ const PromoMaterialsPage: React.FC = () => (
           className="max-w-full shadow-lg mx-auto"  
         />
         <Image
+          src="/promo/listopad2023-press.webp"
+          alt="Plakat promujący wydarzenia z listopada 2023 dla lokalnej prasy"
+          width={471}
+          height={666}
+          className="max-w-full shadow-lg mx-auto"  
+        />
+        <Image
           src="/promo/listopad2023.webp"
           alt="Plakat promujący wydarzenia z listopada 2023"
           width={471}
