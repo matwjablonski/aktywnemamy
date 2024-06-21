@@ -1,4 +1,4 @@
-import { News } from '@/app/data/news';
+import { News } from '@/app/archiwum/data/news';
 import Link from 'next/link';
 import { FC } from 'react';
 import ButtonLink from '../ButtonLink';
