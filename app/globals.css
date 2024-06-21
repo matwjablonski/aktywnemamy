@@ -52,3 +52,10 @@ body {
   background-image:
     radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
 }
+
+.text-stroke {
+  background: -webkit-linear-gradient(0, #3b5d5f, #96aaac 50%);
+  background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #fff;
+}
