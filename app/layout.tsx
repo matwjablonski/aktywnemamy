@@ -7,7 +7,7 @@ const sourceSans = Source_Sans_3({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Aktywne Mamy',
-  description: 'Inicjatywa Oddolna Aktywne Mamy',
+  description: 'Koło Gospodyń Wiejskich w Dopiewcu',
 }
 
 export default function RootLayout({
